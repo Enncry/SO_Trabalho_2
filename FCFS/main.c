@@ -50,11 +50,19 @@ void imprimir_gantt(Processo processos[], int n){
 }
 
 int main(void){
+    //Exercício 1:
     Processo processos[5] = {{1,10,0},
                              {2,1,0},
                              {3,2,0},
                              {4,1,0},
                              {5,5,0}};
+
+    //Exercício 2:
+    /*Processo processos[5] = {{1,10,0},
+                             {2,29,0},
+                             {3,3,0},
+                             {4,7,0},
+                             {5,12,0}};*/
 
 
     printf("\nTempo médio de espera: %.2f u.t.\n\n", calc_tmed_FCFS(processos, 5));

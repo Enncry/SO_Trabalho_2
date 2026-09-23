@@ -76,14 +76,25 @@ float calc_tmed_RR_e_imprime_gantt(Processo processos[], int n, int quantum){
 }
 
 int main(void){
+    //Exercício 1:
     Processo processos[5] = {{1,10,0},
-                             {2,29,0},
-                             {3,3,0},
-                             {4,7,0},
-                             {5,12,0}};
+                             {2,1,0},
+                             {3,2,0},
+                             {4,1,0},
+                             {5,5,0}};
+    
+    printf("Tempo médio de espera: %.2f u.t.\n",calc_tmed_RR_e_imprime_gantt(processos,5,1));
 
-                             
-    printf("Tempo médio de espera: %.2f u.t.\n",calc_tmed_RR_e_imprime_gantt(processos,5,10));
+    //Exercício 2:
+    /*Processo processos[5] = {{1,10,0},
+                               {2,29,0},
+                               {3,3,0},
+                               {4,7,0},
+                               {5,12,0}};
+    
+    printf("Tempo médio de espera: %.2f u.t.\n",calc_tmed_RR_e_imprime_gantt(processos,5,10));*/
+                   
+    
 
     return 0;
 }

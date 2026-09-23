@@ -31,7 +31,7 @@ float calc_tmed_prioridade(Processo processos[], int n){
 
     bubblesort_prioridade(processos,n);
 
-    //OBS: considerando que todos os processos começam no tempo 0, o algoritmo fica mais simples
+    //OBS: considerando que todos os processos começam no tempo 0(como solicitado em sala), o algoritmo fica mais simples
     for(int i=0;i<n;i++){
         soma_espera += t_atual;
         t_atual += processos[i].t_cpu;
@@ -70,12 +70,19 @@ void imprimir_gantt(Processo processos[], int n){
 }
 
 int main(void){
+    //Exercício 1:
     Processo processos[5] = {{1,10,0,3},
                              {2,1,0,1},
                              {3,2,0,3},
                              {4,1,0,4},
                              {5,5,0,2}};
 
+    //Exercício 2:
+    /*Processo processos[5] = {{1,10,0,3},
+                             {2,29,0,4},
+                             {3,3,0,1},
+                             {4,7,0,3},
+                             {5,12,0,2}};*/
 
     printf("\nTempo médio de espera: %.2f u.t.\n\n",calc_tmed_prioridade(processos, 5));
     imprimir_gantt(processos, 5);
