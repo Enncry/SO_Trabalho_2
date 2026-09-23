@@ -12,6 +12,5 @@ Isaque Schneider Matte
 
 ### Implementação
 
-
-
-A linguagem escolhida para a implementação dos algoritmos foi C. A implementeção está presente no repositório, cada pasta corresponde a um algoritmo diferente, com processos predifinidos, em caso de testes futuros é preciso alterar manualmente cada arquivo, recompliar e rodar.
+A linguagem escolhida para a implementação dos algoritmos foi C. 
+A implementeção está presente no repositório, cada pasta corresponde a um algoritmo diferente, com processos predifinidos, em caso de testes futuros é preciso alterar manualmente cada arquivo, recompliar e rodar.
