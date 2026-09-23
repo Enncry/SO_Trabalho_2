@@ -1,6 +1,6 @@
 # SO - Trabalho 2: Algoritmos de Escalonamento de Projetos
 
-Neste trabalho, pede-se que o aluno implemente 4 algoritmos de escalonamento de projetos, sendo esses: FCFS, SJF, Prioridade e RR (preempitvo). Sob a condição inicial que todos os processos chegam em t=0. Além dos algoritimos, o aluno deve fazer uma visualização do diagrama de gantt para cada algoritmo, a mesma podendo ser feita em ASCII ou por outro meio que o aluno preferir.
+Neste trabalho da disciplina de Sistemas Operacionais, pede-se que o aluno implemente 4 algoritmos de escalonamento de processos, sendo esses: FCFS, SJF, Prioridade e RR (preempitvo). Sob a condição inicial que todos os processos chegam em t=0. Além dos algoritimos, o aluno deve fazer uma visualização do diagrama de gantt para cada algoritmo, a mesma podendo ser feita em ASCII ou por outro meio que o aluno preferir.
 
 Como desafio, é proposto que o aluno implemente um algoritmo de escalonamento de tarefas preemptivo, onde os processos não necessáriamente chegem juntos em t=0. Essa implementação também deve incluir o diagrama de gantt.
 
